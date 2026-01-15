@@ -1,5 +1,5 @@
-import { loadAnimations } from "./js/anim";
-import { scrollTrigger } from "./js/scroll";
+import { loadAnimations } from "./js/anim.js";
+import { scrollTrigger } from "./js/scrol.jsl";
 
 loadAnimations()
 // scrollTrigger('#intro-about-cloud-img', {
