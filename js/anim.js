@@ -1,4 +1,4 @@
-import { animate, spring } from "../node_modules/animejs";
+import { animate, spring } from "animejs";
 
 export function loadAnimations() {
   animate('#intro-illustration-img',
