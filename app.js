@@ -5,3 +5,5 @@ loadAnimations()
 // scrollTrigger('#intro-about-cloud-img', {
 //   rootMargin: '-300px'
 // })
+
+scrollTrigger()
