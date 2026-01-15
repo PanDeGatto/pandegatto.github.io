@@ -1,0 +1,63 @@
+#intro {}
+
+#intro-illustration-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* background-color: lightcoral; */
+  height: 300px;
+  margin-top: 40px;
+  z-index: 0;
+}
+
+#intro-illustration-img img {
+  opacity: 0.5;
+}
+
+.relative {
+  z-index: 5;
+  position: relative;
+}
+
+#intro-character-img {
+  /* background-color: lightcyan; */
+  position: absolute;
+  top: -210px;
+  left: 20%;
+  width: 800px;
+  height: 1500px;
+}
+
+#intro-portfolio-img {
+  position: relative;
+  /* background-color: lightgoldenrodyellow; */
+  height: 150px;
+  width: 900px;
+  margin-left: auto;
+  z-index: 10;
+}
+
+#intro-author-img {
+  position: relative;
+  background-color: lightseagreen;
+  height: 50px;
+  width: 400px;
+  margin-left: auto;
+  z-index: 10;
+}
+
+#intro-about-cloud-img {
+  position: relative;
+  /* background-color: lightsalmon; */
+  height: 300px;
+  width: 500px;
+  right: 10%;
+  margin-left: auto;
+  top: 70px;
+  z-index: 10;
+  transform-origin: bottom right;
+}
+
+.active {
+  display: block;
+}
