@@ -1,0 +1,23 @@
+#intro-illustration-img {
+  display: flex;
+  justify-content: center;
+}
+
+#intro-illustration-img img {
+  width: 90%;
+  height: auto;
+}
+
+#intro-hand-container {
+  position: relative;
+}
+
+#intro-hand-container img {
+  position: absolute;
+
+  width: 1000px;
+  height: auto;
+
+  right: 0;
+  top: -1250px;
+}
